@@ -15,7 +15,8 @@ Identidade:
  - Conforto
  - Tranquilidade
 
-#F8F3E8 (Romance)
-#3D2922 (Brown Pod)
-#EDD582 (Buff)
-#CDDDDD (Zumthor)
+## Cores do Projeto
+- `#F8F3E8` (Romance)
+- `#3D2922` (Brown Pod)
+- `#EDD582` (Buff)
+- `#CDDDDD` (Zumthor)
