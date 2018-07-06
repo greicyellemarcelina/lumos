@@ -32,3 +32,37 @@ main {
 body {
     background: #F8F3E8;
 }
+
+.area1 {
+    width: 480px;
+    height: calc(500px - 66.7%);  
+    border: 2px;
+    padding:  0px 32px 32px 0px;
+
+}
+
+.area2{
+    width: 480px;
+    height: calc(500px - 66.7%);  
+    padding: 0px 32px 0px 32px;
+}
+
+.area3 {
+    width: 480px;
+    height: calc(500px - 66.7%);  
+    padding: 0px 32px 0px 32px;
+
+}
+
+#title {
+    text-align: left;
+    font-family: 'Cinzel Decorative';
+}
+
+#botao {  
+    font-family: 'Slabo 27px';    
+    background: white; 
+    border-color: #3D2922;
+    padding: 4px 12px 4px 12px;
+
+}
