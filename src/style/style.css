@@ -5,7 +5,7 @@
 }
 
 main {
-    width: 800;
+    width: 900px;
     height: 500px;
     position: absolute;
     left: calc(50% - 400px);
@@ -13,7 +13,7 @@ main {
 }
 
 .left {
-    width: 480px;
+    width: calc(900px - 50%);
     height: 500px;
     background: white;
     border: 1px;
@@ -21,7 +21,7 @@ main {
 }
 
 .right {
-    width: 320px;
+    width: calc(900px - 50%);
     height: 500px;
     background: #3D2922;
     border: 1px;
@@ -34,7 +34,7 @@ body {
 }
 
 .area1 {
-    width: 480px;
+    width: calc(900px - 50%);
     height: calc(500px - 66.7%);  
     border: 2px;
     padding:  0px 32px 32px 0px;
@@ -42,13 +42,13 @@ body {
 }
 
 .area2{
-    width: 480px;
+    width: calc(900px - 50%);
     height: calc(500px - 66.7%);  
     padding: 0px 32px 0px 32px;
 }
 
 .area3 {
-    width: 480px;
+    width: calc(900px - 50%);
     height: calc(500px - 66.7%);  
     padding: 0px 32px 0px 32px;
 
@@ -66,3 +66,45 @@ body {
     padding: 4px 12px 4px 12px;
 
 }
+/*COLUNA 1*/
+
+.coluna1  {
+    width: calc(450px - 50%);
+    height: 500px;
+    float: left;
+}
+
+.coluna1 .area1 {
+    width: calc(450px - 100%);
+    height: calc(500px - 55%);
+    background: #EDD582;
+}
+
+
+.coluna1 .area2 {
+    width: calc(450px - 100%);
+    height: calc(500px - 45%);
+    background: #3D2922;
+}
+
+/*COLUNA 2*/
+.coluna2 {
+    width: calc(450px - 50%);
+    height: 500px;
+    float: right;
+}
+
+.coluna2 .area1 {
+    width: calc(450px - 100%);
+    height: calc(500px - 45%);
+    background: white;
+}
+
+
+.coluna2 .area2 {
+    width: calc(450px - 100%);
+    height: calc(500px - 55%);
+    background: #CDDDDD;
+}
+
+
