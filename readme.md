@@ -20,4 +20,10 @@ Identidade:
 - `#3D2922` (Brown Pod)
 - `#EDD582` (Buff)
 - `#CDDDDD` (Zumthor)
+- `#8B795E` (Navajo White 4)
+
+## Fontes do Projeto
+- `Cinzel Decorative`
+- `Slabo 27px`
+- `Raleway`
 
