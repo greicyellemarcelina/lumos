@@ -17,8 +17,7 @@ main {
     position: absolute;
     left: calc(50% - 400px);
     top: calc(50% - 250px);
-    box-shadow: 0 10px 6px -6px #8B8989;
-
+    box-shadow: 0 10px 6px -6px #8B795E;
    
 
 }
@@ -70,13 +69,21 @@ body {
     font-family: 'Cinzel Decorative';
 }
 
+#subtitle {
+    text-align: left;
+    font-family: 'Slabo 27px';
+    font-size: 18px;
+    color: #6CA6CD;
+}
+
 #botao {  
     font-family: 'Slabo 27px';    
     background: white; 
     border-color: #3D2922;
-    padding: 4px 12px 4px 12px;
+    padding: 4px 12px 4px 8px;
 
 }
+
 /*COLUNA 1*/
 
 .coluna1  {
@@ -97,6 +104,7 @@ body {
     height: calc(500px - 45%);
     background: #3D2922;
     box-sizing: border-box;
+
 }
 
 /*COLUNA 2*/
@@ -155,31 +163,27 @@ a:visited {
 }
 
 #img-01 {
-    width: 244px;
-    height: 224px;
-    max-width: 245px;
+    max-width: 250px;
     max-height: 275px;
+    padding: 6px;
+    margin-left: -10px;    
 }
 
 #img-02 {
-    width: 192px;
-    height: 224px; 
-    max-width: 225px;
-    max-height: 225px;
-}
-
-#img-03 {
-    width: 225px;
-    height: 274px;
-    max-width: 225px;
+    max-width: 200px;
     max-height: 275px;
+    padding: 12px;
+    margin-top: 44px;
+    margin-left: 14px;
+}
+
+#img-03 {    
+    max-width: 170px;
+    max-height: 275px;
+    padding: 8px;
+    margin-top: 24px;
 }
 
 
-/*
 
--webkit-box-shadow: -6px 10px 6px -6px #777;
--moz-box-shadow: 6px 10px 6px -12px #777;
- box-shadow: 6px 10px 6px -6px #777;
 
-*/

@@ -21,9 +21,14 @@ Identidade:
 - `#EDD582` (Buff)
 - `#CDDDDD` (Zumthor)
 - `#8B795E` (Navajo White 4)
+- `#63B8FF` (StelBlue 3)
+- `#6CA6CD` (SkyBlue3)
+}
 
 ## Fontes do Projeto
 - `Cinzel Decorative`
 - `Slabo 27px`
 - `Raleway`
+
+
 
