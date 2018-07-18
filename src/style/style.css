@@ -77,12 +77,17 @@ body {
     color: #6CA6CD;
 }
 
-#botao {  
+.btn-saber-mais {  
     font-family: 'Slabo 27px';    
     background: white; 
     border-color: #3D2922;
     padding: 4px 12px 4px 8px;
+    cursor: pointer;
+}
 
+.btn-saber-mais:hover {  
+    color: white; 
+    background: #3D2922;
 }
 
 /*COLUNA 1*/
