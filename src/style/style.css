@@ -22,7 +22,7 @@ main {
 
 }
 
-.left {
+.panel-left {
     width: calc(900px - 50%);
     height: 500px;
     background: white;
@@ -30,7 +30,7 @@ main {
     float: left;
 }
 
-.right {
+.panel-right {
     width: calc(900px - 50%);
     height: 500px;
     background: #3D2922;
@@ -43,7 +43,7 @@ body {
     background: #F8F3E8;
 }
 
-.area1 {
+.area-1 {
     width: calc(900px - 50%);
     height: calc(500px - 66.7%);  
     border: 2px;
@@ -51,13 +51,13 @@ body {
 
 }
 
-.area2{
+.area-2{
     width: calc(900px - 50%);
     height: calc(500px - 66.7%);  
     padding: 0px 32px 0px 32px;
 }
 
-.area3 {
+.area-3 {
     width: calc(900px - 50%);
     height: calc(500px - 66.7%);  
     padding: 0px 32px 0px 32px;
@@ -92,20 +92,20 @@ body {
 
 /*COLUNA 1*/
 
-.coluna1  {
+.coluna-1  {
     width: calc(450px - 50%);
     height: 500px;
     float: left;
 }
 
-.coluna1 .area1 {
+.coluna-1 .area-1 {
     width: calc(450px - 100%);
     height: calc(500px - 55%);
     background: #CDDDDD;
 }
 
 
-.coluna1 .area2 {
+.coluna-1 .area-2 {
     width: calc(450px - 100%);
     height: calc(500px - 45%);
     background: #3D2922;
@@ -114,20 +114,20 @@ body {
 }
 
 /*COLUNA 2*/
-.coluna2 {
+.coluna-2 {
     width: calc(450px - 50%);
     height: 500px;
     float: right;
 }
 
-.coluna2 .area1 {
+.coluna-2 .area-1 {
     width: calc(450px - 100%);
     height: calc(500px - 45%);
     background: white;
 }
 
 
-.coluna2 .area2 {
+.coluna-2 .area-2 {
     width: calc(450px - 100%);
     height: calc(500px - 55%);
     background: #EDD582;
